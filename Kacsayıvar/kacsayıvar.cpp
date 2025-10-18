@@ -17,7 +17,6 @@ int main(void)
 		else
 		{
 			int temp3 = (i % 1000 - temp2 * 10 - temp1) / 100;
-			if (temp3 == temp2 || temp3 == temp1)
 			{
 				continue;
 			}
