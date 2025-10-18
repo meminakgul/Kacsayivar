@@ -6,7 +6,7 @@ int main(void)
 {
 	int sayac = 0;
 
-	for (int i = 1000; i <= 9999; i++)
+	for (int i = 1000; i <= 9999; ++i)
 	{
 		int temp1 = i % 10;
 		int temp2 = (i % 100 - temp1) / 10;
